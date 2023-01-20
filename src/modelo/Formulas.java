@@ -3,11 +3,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package modelo;
+import modelo.Coeficientes;
 
 /**
  *
  * @author gurui
  */
 public class Formulas {
-    
+    protected static Coeficientes coeficientesActuales;
 }
