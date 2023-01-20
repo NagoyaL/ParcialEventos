@@ -11,24 +11,17 @@ package modelo;
 public class Coeficientes {
 
     //  Atributos
-    protected float coefA;
-    protected float coefB;
-    protected float coefC;
+    protected double intercepto;
+    protected double pendiente;
 
     //  Metodos
     public Coeficientes() {
 
     }
 
-    public Coeficientes(float coefA, float coefB, float coefC) {
-        this.coefA = coefA;
-        this.coefB = coefB;
-        this.coefC = coefC;
-    }
-
-    public Coeficientes(float coefA, float coefB) {
-        this.coefA = coefA;
-        this.coefB = coefB;
+    public Coeficientes(double coefA, double coefB) {
+        this.intercepto = coefA;
+        this.pendiente = coefB;
     }
 
 }
