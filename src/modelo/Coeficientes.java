@@ -9,5 +9,26 @@ package modelo;
  * @author gurui
  */
 public class Coeficientes {
-    
+
+    //  Atributos
+    protected float coefA;
+    protected float coefB;
+    protected float coefC;
+
+    //  Metodos
+    public Coeficientes() {
+
+    }
+
+    public Coeficientes(float coefA, float coefB, float coefC) {
+        this.coefA = coefA;
+        this.coefB = coefB;
+        this.coefC = coefC;
+    }
+
+    public Coeficientes(float coefA, float coefB) {
+        this.coefA = coefA;
+        this.coefB = coefB;
+    }
+
 }
